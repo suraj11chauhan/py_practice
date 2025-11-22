@@ -9,7 +9,7 @@ print(d1.keys())
 print(d1.values())
 print(d1.items())
 d1[0]='suraj'
-for k, v in d.items():
+for k, v in d1.items():
     print(k, '|',v)
 
 #update dict
@@ -34,3 +34,4 @@ field_name = ['name','sal','city']
 values = ['surajj','30888','Pune']
 
 d10 = {field_name[i]:values[i] for i in range(len(field_name))}
+
