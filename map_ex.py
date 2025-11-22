@@ -2,7 +2,7 @@ d1 = {1:'a',2:'c'}
 print(type(d1))
 print(d1)
 print(d1[1]) # d[key]
-d.get(3,'NA')
+d1.get(3,'NA')
 d1[0] = 'aa'
 keys = list(d1.keys())
 print(d1.keys())
@@ -32,4 +32,5 @@ d9 = dict.fromkeys(l1, default_value)
 
 field_name = ['name','sal','city']
 values = ['surajj','30888','Pune']
+
 d10 = {field_name[i]:values[i] for i in range(len(field_name))}
